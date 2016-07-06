@@ -5,4 +5,5 @@ package com.tele.starter;
  */
 public class Test {
     private String a = "";
+    private Integer a = 100;
 }
