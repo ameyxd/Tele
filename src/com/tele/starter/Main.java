@@ -5,6 +5,7 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.json.JSONArray;
+import org.json.JSONException;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -19,7 +20,7 @@ public class Main {
     public static final String TOKEN = "217329476:AAGJK3qRn_Q7L5l59nVueVcqAtgAyVA-1qM";
     public static final String searchKeyword = "Atheism";
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, JSONException {
 
         Scanner scanner = new Scanner(System.in);
 

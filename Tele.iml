@@ -19,7 +19,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Downloads/telegrambots-2.3.3.4-jar-with-dependencies.jar!/" />
@@ -28,7 +28,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Downloads/telegrambots-2.3.3.4.jar!/" />
@@ -41,6 +41,29 @@
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Downloads/httpclient-4.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="httpclient-4.5" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/resources/httpclient-4.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/resources/httpcore-4.4.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/resources/java-json.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/resources/java-json.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/resources/commons-logging-1.1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
